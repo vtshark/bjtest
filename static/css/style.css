@@ -1,0 +1,45 @@
+.div-msg {
+    background: #e6f1fc;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    box-shadow: 0 0 15px 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.div-tr {
+    background: floralwhite;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    /*padding: 5px;*/
+    border-radius: 5px;
+}
+a {
+    margin: 10px;
+}
+.add-form {
+    background: floralwhite;
+    box-shadow: 0 0 15px 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    color: #1b3d75;
+}
+
+.text-msg {
+    background: floralwhite;
+}
+#div-preview {
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    width: 50%;
+    display: none;
+    z-index: 10;
+}
